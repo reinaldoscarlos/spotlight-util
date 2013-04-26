@@ -28,7 +28,7 @@ object TestingJenaScala extends App {
       }
       content.append("\n")
     }
-    val output: FileWriter = new FileWriter("../files/outputs/mappingbased_properties_en.tsv")
+    val output: FileWriter = new FileWriter("C:\\Partition\\H\\java\\workspace\\Jena\\src\\mappingbased_properties_en.tsv")
     output.append(content)
     output.flush
     output.close
