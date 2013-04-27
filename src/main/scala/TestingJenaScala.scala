@@ -10,7 +10,7 @@ import java.io.{FileWriter, InputStream}
  * To change this template use File | Settings | File Templates.
  */
 object TestingJenaScala extends App {
-  val fileNameOrUri: String = "../files/inputs/mappingbased_properties_en.nt"
+  val fileNameOrUri: String = "files/inputs/mappingbased_properties_en.nt"
   val model: Model = ModelFactory.createDefaultModel
   val input: InputStream = FileManager.get.open(fileNameOrUri)
   if (input != null) {
@@ -25,10 +25,11 @@ object TestingJenaScala extends App {
       while (properties.hasNext) {
         val property: Statement = properties.next
         content.append(if (property.getObject.isLiteral) property.getLiteral.getLexicalForm else property.getObject)
+        content.append(" ")
       }
       content.append("\n")
     }
-    val output: FileWriter = new FileWriter("C:\\Partition\\H\\java\\workspace\\Jena\\src\\mappingbased_properties_en.tsv")
+    val output: FileWriter = new FileWriter("files/outputs/mappingbased_properties_en.tsv")
     output.append(content)
     output.flush
     output.close
