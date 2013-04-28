@@ -1,0 +1,67 @@
+<http://dbpedia.org/resource/Autism> <http://dbpedia.org/ontology/diseasesdb> "1142"@en .
+<http://dbpedia.org/resource/Autism> <http://dbpedia.org/ontology/icd9> "299.00"@en .
+<http://dbpedia.org/resource/Autism> <http://dbpedia.org/ontology/omim> "209850"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Autism> <http://dbpedia.org/ontology/medlineplus> "001526"@en .
+<http://dbpedia.org/resource/Autism> <http://dbpedia.org/ontology/emedicineSubject> "med"@en .
+<http://dbpedia.org/resource/Autism> <http://dbpedia.org/ontology/emedicineTopic> "3202"@en .
+<http://dbpedia.org/resource/Autism> <http://dbpedia.org/ontology/meshId> "D001321"@en .
+<http://dbpedia.org/resource/Autism> <http://xmlns.com/foaf/0.1/name> "Autism"@en .
+<http://dbpedia.org/resource/Animal_Farm> <http://xmlns.com/foaf/0.1/name> "Animal Farm"@en .
+<http://dbpedia.org/resource/Animal_Farm> <http://xmlns.com/foaf/0.1/name> "Animal Farm: A Fairy Story"@en .
+<http://dbpedia.org/resource/Animal_Farm> <http://dbpedia.org/ontology/author> <http://dbpedia.org/resource/George_Orwell> .
+<http://dbpedia.org/resource/Animal_Farm> <http://dbpedia.org/ontology/publisher> <http://dbpedia.org/resource/Harvill_Secker> .
+<http://dbpedia.org/resource/Animal_Farm> <http://dbpedia.org/ontology/numberOfPages> "112"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://dbpedia.org/resource/Animal_Farm> <http://dbpedia.org/ontology/isbn> "ISBN 0-452-28424-4 (present) ISBN 978-0-452-28424-1"@en .
+<http://dbpedia.org/resource/Animal_Farm> <http://dbpedia.org/ontology/oclc> "53163540"@en .
+<http://dbpedia.org/resource/Animal_Farm> <http://dbpedia.org/ontology/dcc> "823/.912 20"@en .
+<http://dbpedia.org/resource/Animal_Farm> <http://dbpedia.org/ontology/lcc> "PR6029.R8 A63 2003b"@en .
+<http://dbpedia.org/resource/Animal_Farm> <http://dbpedia.org/ontology/previousWork> <http://dbpedia.org/resource/The_Lion_and_the_Unicorn:_Socialism_and_the_English_Genius> .
+<http://dbpedia.org/resource/Animal_Farm> <http://dbpedia.org/ontology/subsequentWork> <http://dbpedia.org/resource/Nineteen_Eighty-Four> .
+<http://dbpedia.org/resource/Aristotle> <http://xmlns.com/foaf/0.1/name> ", Aristot\u00E9l\u0113s"@en .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/birthYear> "-0384"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/deathYear> "-0322"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/region> <http://dbpedia.org/resource/Western_philosophy> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/era> <http://dbpedia.org/resource/Ancient_philosophy> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/philosophicalSchool> <http://dbpedia.org/resource/Peripatetic_school> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/philosophicalSchool> <http://dbpedia.org/resource/Aristotelianism> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/mainInterest> <http://dbpedia.org/resource/Physics> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/mainInterest> <http://dbpedia.org/resource/Metaphysics> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/mainInterest> <http://dbpedia.org/resource/Poetry> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/mainInterest> <http://dbpedia.org/resource/Theatre> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/mainInterest> <http://dbpedia.org/resource/Music> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/mainInterest> <http://dbpedia.org/resource/Rhetoric> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/mainInterest> <http://dbpedia.org/resource/Politics> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/mainInterest> <http://dbpedia.org/resource/Government> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/mainInterest> <http://dbpedia.org/resource/Ethics> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/mainInterest> <http://dbpedia.org/resource/Biology> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/mainInterest> <http://dbpedia.org/resource/Zoology> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/notableIdea> <http://dbpedia.org/resource/Golden_mean_(philosophy)> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/notableIdea> <http://dbpedia.org/resource/Reason> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/notableIdea> <http://dbpedia.org/resource/Logic> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/notableIdea> <http://dbpedia.org/resource/Syllogism> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influencedBy> <http://dbpedia.org/resource/Parmenides> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influencedBy> <http://dbpedia.org/resource/Socrates> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influencedBy> <http://dbpedia.org/resource/Plato> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influencedBy> <http://dbpedia.org/resource/Heraclitus> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influencedBy> <http://dbpedia.org/resource/Democritus> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Western_philosophy> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Alexander_the_Great> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Avicenna> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Averroes> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Maimonides> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Albertus_Magnus> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Thomas_Aquinas> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Duns_Scotus> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Ptolemy> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Nicolaus_Copernicus> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Galileo_Galilei> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Islamic_philosophy> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Jewish_philosophy> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Christian_philosophy> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Science> .
+<http://dbpedia.org/resource/Aristotle> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/List_of_writers_influenced_by_Aristotle> .
+<http://dbpedia.org/resource/Alabama> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Alabama> <http://xmlns.com/foaf/0.1/name> "State of Alabama"@en .
+<http://dbpedia.org/resource/Alabama> <http://dbpedia.org/ontology/demonym> "Alabamian"@en .
+<http://dbpedia.org/resource/Alabama> <http://dbpedia.org/ontology/language> <http://dbpedia.org/resource/English_American> .
+<http://dbpedia.org/resource/Alabama> <http://dbpedia.org/ontology/capital> <http://dbpedia.org/resource/Montgomery,_Alabama> .
