@@ -26,15 +26,15 @@ object TestingJenaScala extends App {
   //val format = "JSON"
 
   //object extraction
-  extraction ("object", format, "files/inputs/3.8_sl_en_sl_labels_en.nt", "files/outputs/VALUE_OF_OBJECT_3.8_sl_en_sl_labels_en.tsv")
-  extraction("object", format, "files/inputs/3.8_sl_en_sl_mappingbased_properties_en.nt", "files/outputs/VALUE_OF_OBJECT_3.8_sl_en_sl_mappingbased_properties_en.tsv")
-  extraction("object", format, "files/inputs/3.8_sl_en_sl_instance_types_en.nt","files/outputs/VALUE_OF_OBJECT_3.8_sl_en_sl_instance_types_en.tsv")
+  extraction ("object", format, "files/inputs/3.8_sl_en_sl_labels_en.nt", "files/VALUE_OF_OBJECT_3.8_sl_en_sl_labels_en.tsv")
+  extraction("object", format, "files/inputs/3.8_sl_en_sl_mappingbased_properties_en.nt", "files/VALUE_OF_OBJECT_3.8_sl_en_sl_mappingbased_properties_en.tsv")
+  extraction("object", format, "files/inputs/3.8_sl_en_sl_instance_types_en.nt","files/VALUE_OF_OBJECT_3.8_sl_en_sl_instance_types_en.tsv")
 
   //property extraction
-  extraction("property", format, "files/inputs/3.8_sl_en_sl_mappingbased_properties_en.nt", "files/outputs/VALUE_OF_PROPERTY_3.8_sl_en_sl_mappingbased_properties_en.tsv")
+  extraction("property", format, "files/inputs/3.8_sl_en_sl_mappingbased_properties_en.nt", "files/VALUE_OF_PROPERTY_3.8_sl_en_sl_mappingbased_properties_en.tsv")
 
   //type extraction
-  extraction("type", format, "files/inputs/3.8_sl_en_sl_mappingbased_properties_en.nt", "files/outputs/VALUE_OF_TYPE_3.8_sl_en_sl_mappingbased_properties_en.tsv")
+  extraction("type", format, "files/inputs/3.8_sl_en_sl_mappingbased_properties_en.nt", "files/VALUE_OF_TYPE_3.8_sl_en_sl_mappingbased_properties_en.tsv")
 
   def extraction (partToBeExtracted: String, format: String, inputFile: String, outputFile: String) {
 
