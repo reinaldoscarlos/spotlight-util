@@ -1,0 +1,102 @@
+http://dbpedia.org/resource/AfghanistanCommunications	AfghanistanCommunications
+http://dbpedia.org/resource/AcademyAwards/BestPicture	AcademyAwards/BestPicture
+http://dbpedia.org/resource/AlbaniaHistory	AlbaniaHistory
+http://dbpedia.org/resource/AfricA	AfricA
+http://dbpedia.org/resource/AndorrA	AndorrA
+http://dbpedia.org/resource/Agricultural_science	Agricultural science
+http://dbpedia.org/resource/AnnaKournikova	AnnaKournikova
+http://dbpedia.org/resource/AccessibleComputing	AccessibleComputing
+http://dbpedia.org/resource/AdolfHitler	AdolfHitler
+http://dbpedia.org/resource/AbensbergGermany	AbensbergGermany
+http://dbpedia.org/resource/Albedo	Albedo
+http://dbpedia.org/resource/AlexanderTheGreat	AlexanderTheGreat
+http://dbpedia.org/resource/AllSaints	AllSaints
+http://dbpedia.org/resource/AsciiArt	AsciiArt
+http://dbpedia.org/resource/Algeria/Transnational_Issues	Algeria/Transnational Issues
+http://dbpedia.org/resource/AcademyAwards	AcademyAwards
+http://dbpedia.org/resource/ArgumentForms	ArgumentForms
+http://dbpedia.org/resource/AfghanistanGeography	AfghanistanGeography
+http://dbpedia.org/resource/AtlasShrugged	AtlasShrugged
+http://dbpedia.org/resource/AustroAsiaticLanguages	AustroAsiaticLanguages
+http://dbpedia.org/resource/AfghanistanHistory	AfghanistanHistory
+http://dbpedia.org/resource/AnarchY	AnarchY
+http://dbpedia.org/resource/AssistiveTechnology	AssistiveTechnology
+http://dbpedia.org/resource/Anarchism	Anarchism
+http://dbpedia.org/resource/AbbevilleFrance	AbbevilleFrance
+http://dbpedia.org/resource/ArthurKoestler	ArthurKoestler
+http://dbpedia.org/resource/AmericanFootball	AmericanFootball
+http://dbpedia.org/resource/AbacuS	AbacuS
+http://dbpedia.org/resource/AtlasShruggedCharacters	AtlasShruggedCharacters
+http://dbpedia.org/resource/AppliedStatistics	AppliedStatistics
+http://dbpedia.org/resource/AlbaniaGovernment	AlbaniaGovernment
+http://dbpedia.org/resource/AmoeboidTaxa	AmoeboidTaxa
+http://dbpedia.org/resource/AnchorageAlaska	AnchorageAlaska
+http://dbpedia.org/resource/AnAmericanInParis	AnAmericanInParis
+http://dbpedia.org/resource/AxiomOfChoice	AxiomOfChoice
+http://dbpedia.org/resource/AlbaniaEconomy	AlbaniaEconomy
+http://dbpedia.org/resource/AfghanistanMilitary	AfghanistanMilitary
+http://dbpedia.org/resource/AfghanistanPeople	AfghanistanPeople
+http://dbpedia.org/resource/ArgumentsForTheExistenceOfGod	ArgumentsForTheExistenceOfGod
+http://dbpedia.org/resource/AtlasShruggedCompanies	AtlasShruggedCompanies
+http://dbpedia.org/resource/AbbeY	AbbeY
+http://dbpedia.org/resource/AbeL	AbeL
+http://dbpedia.org/resource/AfricanAmericanPeople	AfricanAmericanPeople
+http://dbpedia.org/resource/ActressesS	ActressesS
+http://dbpedia.org/resource/AsWeMayThink	AsWeMayThink
+http://dbpedia.org/resource/AfroAsiaticLanguages	AfroAsiaticLanguages
+http://dbpedia.org/resource/Autism	Autism
+http://dbpedia.org/resource/AynRand	AynRand
+http://dbpedia.org/resource/AberdeenSouthDakota	AberdeenSouthDakota
+http://dbpedia.org/resource/AfghanistanTransportations	AfghanistanTransportations
+http://dbpedia.org/resource/AnarchoCapitalism	AnarchoCapitalism
+http://dbpedia.org/resource/AbbesS	AbbesS
+http://dbpedia.org/resource/ArtificalLanguages	ArtificalLanguages
+http://dbpedia.org/resource/AcademicElitism	AcademicElitism
+http://dbpedia.org/resource/ActionFilm	ActionFilm
+http://dbpedia.org/resource/AbbadideS	AbbadideS
+http://dbpedia.org/resource/AnarchoCapitalists	AnarchoCapitalists
+http://dbpedia.org/resource/A	A
+http://dbpedia.org/resource/Abbreviations	Abbreviations
+http://dbpedia.org/resource/AmericA	AmericA
+http://dbpedia.org/resource/Topics_of_note_in_Atlas_Shrugged	Topics of note in Atlas Shrugged
+http://dbpedia.org/resource/AyersMusicPublishingCompany	AyersMusicPublishingCompany
+http://dbpedia.org/resource/AlbaniaPeople	AlbaniaPeople
+http://dbpedia.org/resource/AbalonE	AbalonE
+http://dbpedia.org/resource/ActresseS	ActresseS
+http://dbpedia.org/resource/ArtificialLanguages	ArtificialLanguages
+http://dbpedia.org/resource/AfghanistanTransnationalIssues	AfghanistanTransnationalIssues
+http://dbpedia.org/resource/AustriaLanguage	AustriaLanguage
+http://dbpedia.org/resource/AutoMorphism	AutoMorphism
+http://dbpedia.org/resource/AbeceDarians	AbeceDarians
+http://dbpedia.org/resource/AbboT	AbboT
+
+http://dbpedia.org/resource/Autism	Autism D001321 3202 med 001526 209850 299.00 1142
+http://dbpedia.org/resource/Animal_Farm	Animal Farm: A Fairy Story http://dbpedia.org/resource/George_Orwell 53163540 112 http://dbpedia.org/resource/Nineteen_Eighty-Four ISBN 0-452-28424-4 (present) ISBN 978-0-452-28424-1 http://dbpedia.org/resource/Harvill_Secker 823/.912 20 http://dbpedia.org/resource/The_Lion_and_the_Unicorn:_Socialism_and_the_English_Genius PR6029.R8 A63 2003b Animal Farm
+http://dbpedia.org/resource/Alabama	http://dbpedia.org/resource/Montgomery,_Alabama http://dbpedia.org/resource/English_American Alabamian State of Alabama http://dbpedia.org/resource/United_States
+http://dbpedia.org/resource/Aristotle	http://dbpedia.org/resource/Metaphysics http://dbpedia.org/resource/Theatre http://dbpedia.org/resource/Biology http://dbpedia.org/resource/Golden_mean_(philosophy) http://dbpedia.org/resource/Galileo_Galilei http://dbpedia.org/resource/List_of_writers_influenced_by_Aristotle http://dbpedia.org/resource/Alexander_the_Great http://dbpedia.org/resource/Albertus_Magnus http://dbpedia.org/resource/Christian_philosophy http://dbpedia.org/resource/Socrates , Aristotélēs http://dbpedia.org/resource/Science http://dbpedia.org/resource/Music http://dbpedia.org/resource/Ethics http://dbpedia.org/resource/Parmenides http://dbpedia.org/resource/Politics http://dbpedia.org/resource/Democritus http://dbpedia.org/resource/Zoology -0384 http://dbpedia.org/resource/Duns_Scotus http://dbpedia.org/resource/Rhetoric http://dbpedia.org/resource/Peripatetic_school http://dbpedia.org/resource/Western_philosophy http://dbpedia.org/resource/Thomas_Aquinas http://dbpedia.org/resource/Physics http://dbpedia.org/resource/Government http://dbpedia.org/resource/Avicenna http://dbpedia.org/resource/Reason http://dbpedia.org/resource/Logic http://dbpedia.org/resource/Nicolaus_Copernicus http://dbpedia.org/resource/Western_philosophy http://dbpedia.org/resource/Aristotelianism http://dbpedia.org/resource/Syllogism http://dbpedia.org/resource/Heraclitus http://dbpedia.org/resource/Ptolemy -0322 http://dbpedia.org/resource/Poetry http://dbpedia.org/resource/Jewish_philosophy http://dbpedia.org/resource/Maimonides http://dbpedia.org/resource/Plato http://dbpedia.org/resource/Ancient_philosophy http://dbpedia.org/resource/Islamic_philosophy http://dbpedia.org/resource/Averroes
+
+http://dbpedia.org/resource/Academy_Award	http://www.w3.org/2002/07/owl#Thing http://dbpedia.org/ontology/Award
+http://dbpedia.org/resource/Actrius	http://www.w3.org/2002/07/owl#Thing http://schema.org/CreativeWork http://dbpedia.org/ontology/Work http://schema.org/Movie http://dbpedia.org/ontology/Film
+http://dbpedia.org/resource/Animal_Farm	http://schema.org/CreativeWork http://dbpedia.org/ontology/Work http://dbpedia.org/ontology/WrittenWork http://www.w3.org/2002/07/owl#Thing http://purl.org/ontology/bibo/Book http://schema.org/Book http://dbpedia.org/ontology/Book
+http://dbpedia.org/resource/America_the_Beautiful	http://www.w3.org/2002/07/owl#Thing http://schema.org/CreativeWork http://dbpedia.org/ontology/Work http://dbpedia.org/ontology/MusicalWork http://schema.org/MusicRecording http://dbpedia.org/ontology/Song
+http://dbpedia.org/resource/Alabama	http://www.w3.org/2002/07/owl#Thing http://schema.org/Place http://dbpedia.org/ontology/Place http://dbpedia.org/ontology/PopulatedPlace http://schema.org/AdministrativeArea http://dbpedia.org/ontology/AdministrativeRegion
+http://dbpedia.org/resource/Alain_Connes	http://dbpedia.org/ontology/Agent http://schema.org/Person http://www.w3.org/2002/07/owl#Thing http://xmlns.com/foaf/0.1/Person http://dbpedia.org/ontology/Person http://dbpedia.org/ontology/Scientist
+http://dbpedia.org/resource/Ayn_Rand	http://dbpedia.org/ontology/Artist http://dbpedia.org/ontology/Writer
+http://dbpedia.org/resource/Allan_Dwan	http://dbpedia.org/ontology/Agent http://schema.org/Person http://www.w3.org/2002/07/owl#Thing http://xmlns.com/foaf/0.1/Person http://dbpedia.org/ontology/Person
+http://dbpedia.org/resource/Allan_Dwan__2	http://www.w3.org/2002/07/owl#Thing http://dbpedia.org/ontology/PersonFunction
+http://dbpedia.org/resource/Allan_Dwan__3	http://www.w3.org/2002/07/owl#Thing http://dbpedia.org/ontology/PersonFunction
+http://dbpedia.org/resource/Autism	http://www.w3.org/2002/07/owl#Thing http://dbpedia.org/ontology/Disease
+http://dbpedia.org/resource/Abraham_Lincoln	http://dbpedia.org/ontology/Agent http://schema.org/Person http://www.w3.org/2002/07/owl#Thing http://xmlns.com/foaf/0.1/Person http://dbpedia.org/ontology/Person http://dbpedia.org/ontology/OfficeHolder
+http://dbpedia.org/resource/Allan_Dwan__1	http://www.w3.org/2002/07/owl#Thing http://dbpedia.org/ontology/PersonFunction
+http://dbpedia.org/resource/Aristotle	http://dbpedia.org/ontology/Agent http://schema.org/Person http://www.w3.org/2002/07/owl#Thing http://xmlns.com/foaf/0.1/Person http://dbpedia.org/ontology/Person http://dbpedia.org/ontology/Philosopher
+http://dbpedia.org/resource/Academy_Award_for_Best_Art_Direction	http://www.w3.org/2002/07/owl#Thing http://dbpedia.org/ontology/Award
+
+http://dbpedia.org/resource/Autism	name meshId emedicineTopic emedicineSubject medlineplus omim icd9 diseasesdb
+http://dbpedia.org/resource/Animal_Farm	name author oclc numberOfPages subsequentWork isbn publisher dcc previousWork lcc name
+http://dbpedia.org/resource/Alabama	capital language demonym name country
+http://dbpedia.org/resource/Aristotle	mainInterest mainInterest mainInterest notableIdea influenced influenced influenced influenced influenced influencedBy name influenced mainInterest mainInterest influencedBy mainInterest influencedBy mainInterest birthYear influenced mainInterest philosophicalSchool influenced influenced mainInterest mainInterest influenced notableIdea notableIdea influenced region philosophicalSchool notableIdea influencedBy influenced deathYear mainInterest influenced influenced influencedBy era influenced influenced
+
+http://dbpedia.org/resource/Autism	literal literal literal literal literal literal literal literal
+http://dbpedia.org/resource/Animal_Farm	literal named literal literal named literal named literal named literal literal
+http://dbpedia.org/resource/Alabama	named named literal literal named
+http://dbpedia.org/resource/Aristotle	named named named named named named named named named named literal named named named named named named named literal named named named named named named named named named named named named named named named named literal named named named named named named named
