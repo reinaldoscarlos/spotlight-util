@@ -1,3 +1,4 @@
+import com.hp.hpl.jena.ontology.{OntModelSpec, OntModel}
 import com.hp.hpl.jena.rdf.model._
 
 /**
@@ -12,25 +13,37 @@ trait StatementContextExtractor {
 
 class ObjectExtractor extends StatementContextExtractor {
   def extract(property: Statement) : String = {
-    property.getObject.visitWith(new ObjectVisitor).toString
-  }
-
-  //Visitor used to get the label according to the object type
-  class ObjectVisitor extends RDFVisitor {
-    def visitBlank(node: Resource, arg1: AnonId): AnyRef = {
-      ""
-    }
-    def visitLiteral(literal: Literal): AnyRef = {
-      literal.getLexicalForm
-    }
-    def visitURI(resource: Resource, arg1: String): AnyRef = {
-      resource.getLocalName
-    }
+    property.getObject.visitWith(new StatementVisitor).toString
   }
 }
 
 class PropertyExtractor extends StatementContextExtractor {
   def extract(property: Statement) : String = {
-    property.getPredicate.getLocalName  //TODO get label (label does not necessarily equal local name)
+    property.getPredicate.visitWith(new StatementVisitor).toString
+    //property.getPredicate.getLocalName
+  }
+}
+
+//Visitor used to get the label according to the object type
+class StatementVisitor extends RDFVisitor {
+  def visitBlank(node: Resource, arg1: AnonId): AnyRef = {
+    ""
+  }
+  def visitLiteral(literal: Literal): AnyRef = {
+    literal.getLexicalForm
+  }
+  def visitURI(resource: Resource, uri: String): AnyRef = {
+
+    // TODO: use SDB or TDB and store the labels from OWL or NT at a database
+    val base: OntModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM, null)
+    val language = null //"EN" "FR"...
+    base.read("file:files/inputs/dbpedia_3.8.owl")
+    base.read("file:files/inputs/3.8_sl_en_sl_labels_en.nt")
+    if (base.getOntClass(uri)!=null && base.getOntClass(uri).getLabel(language)!=null)
+      base.getOntClass(uri).getLabel(language)
+    else if (base.getOntResource(uri)!=null && base.getOntResource(uri).getLabel(language)!=null)
+      base.getOntResource(uri).getLabel(language)
+    else
+      resource.getLocalName
   }
 }
