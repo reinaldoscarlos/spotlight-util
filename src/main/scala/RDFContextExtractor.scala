@@ -13,7 +13,7 @@ import org.apache.lucene.util.Version
  *
  * @author reinaldo
  */
-object ContextExtractor extends App {
+object RDFContextExtractor extends App {
 
   /**
    * Choose the format of the output
