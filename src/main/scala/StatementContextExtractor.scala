@@ -36,9 +36,9 @@ class StatementVisitor extends RDFVisitor {
 
     // TODO: use SDB or TDB and store the labels from OWL or NT at a database
     val base: OntModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM, null)
-    val language = null //"EN" "FR"...
+    val language = "EN" //"EN" "FR"...
     base.read("file:files/inputs/dbpedia_3.8.owl")
-    base.read("file:files/inputs/3.8_sl_en_sl_labels_en.nt")
+    //base.read("file:files/inputs/3.8_sl_en_sl_labels_en.nt") TODO executes only with jena-core-2.10.0
     if (base.getOntClass(uri)!=null && base.getOntClass(uri).getLabel(language)!=null)
       base.getOntClass(uri).getLabel(language)
     else if (base.getOntResource(uri)!=null && base.getOntResource(uri).getLabel(language)!=null)
