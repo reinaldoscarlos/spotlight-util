@@ -1,10 +1,4 @@
-import com.hp.hpl.jena.rdf.model._
-import com.hp.hpl.jena.util.FileManager
 import java.io._
-import org.apache.lucene.analysis.br.BrazilianAnalyzer
-import org.apache.lucene.analysis.tokenattributes.CharTermAttribute
-import org.apache.lucene.analysis.TokenStream
-import org.apache.lucene.util.Version
 
 /**
  * Context Extraction from RDF
@@ -22,11 +16,19 @@ object RDFContextExtractor extends App {
    * Check the output to see the extraction
    */
 
+  //Use it to create databases at filesystem
+  //DataConn.create_TDB_Filesystem("C:\\Users\\reinaldo\\Desktop\\DATASETS\\TDB_NT", "C:\\Users\\reinaldo\\Desktop\\DATASETS\\labels_en.nt\\labels_en3.nt");
+  //DataConn.create_TDB_Filesystem("C:\\Users\\reinaldo\\Desktop\\DATASETS\\TDB_OWL", "file:C:\\Users\\reinaldo\\Desktop\\DATASETS\\dbpedia_3.8.owl\\dbpedia_3.8.owl");
+
+  //Use it to load a database from filesystem
+  //DataConn.get_TDB_Filesystem("C:\\Users\\reinaldo\\Desktop\\DATASETS\\TDB_NT");
+  DataConn.get_TDB_Filesystem("C:\\Users\\reinaldo\\Desktop\\DATASETS\\TDB_OWL");
+
   val format = "TSV"
   //val format = "JSON"
 
   //Extracting the label of the object
-  //labelExtraction("object", format, "files/inputs/3.8_sl_en_sl_labels_en.nt", "files/VALUE_OF_OBJECT_3.8_sl_en_sl_labels_en.tsv")
+  labelExtraction("object", format, "files/inputs/3.8_sl_en_sl_labels_en.nt", "files/VALUE_OF_OBJECT_3.8_sl_en_sl_labels_en.tsv")
   labelExtraction("object", format, "files/inputs/3.8_sl_en_sl_mappingbased_properties_en.nt", "files/VALUE_OF_OBJECT_3.8_sl_en_sl_mappingbased_properties_en.tsv")
   labelExtraction("object", format, "files/inputs/3.8_sl_en_sl_instance_types_en.nt","files/VALUE_OF_OBJECT_3.8_sl_en_sl_instance_types_en.tsv")
 

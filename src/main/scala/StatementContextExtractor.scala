@@ -1,4 +1,3 @@
-import com.hp.hpl.jena.ontology.{OntModelSpec, OntModel}
 import com.hp.hpl.jena.rdf.model._
 
 /**
@@ -33,17 +32,7 @@ class StatementVisitor extends RDFVisitor {
     literal.getLexicalForm
   }
   def visitURI(resource: Resource, uri: String): AnyRef = {
-
-    // TODO: use SDB or TDB and store the labels from OWL or NT at a database
-    val base: OntModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM, null)
-    val language = "EN" //"EN" "FR"...
-    base.read("file:files/inputs/dbpedia_3.8.owl")
-    //base.read("file:files/inputs/3.8_sl_en_sl_labels_en.nt") TODO executes only with jena-core-2.10.0
-    if (base.getOntClass(uri)!=null && base.getOntClass(uri).getLabel(language)!=null)
-      base.getOntClass(uri).getLabel(language)
-    else if (base.getOntResource(uri)!=null && base.getOntResource(uri).getLabel(language)!=null)
-      base.getOntResource(uri).getLabel(language)
-    else
-      resource.getLocalName
+    val result = DataConn.executeQuery(uri)
+    if (result == null) resource.getLocalName else result
   }
 }
