@@ -1,3 +1,4 @@
+import com.typesafe.config.{ConfigFactory, Config}
 import java.io._
 
 /**
@@ -16,25 +17,17 @@ object RDFContextExtractor extends App {
    * Check the output to see the extraction
    */
 
+  //Get properties from application.conf
+  val config = ConfigFactory.load;
+
   //Use it to create databases at filesystem
-  //DataConn.create_TDB_Filesystem("C:\\Users\\reinaldo\\Desktop\\DATASETS\\TDB_NT", "C:\\Users\\reinaldo\\Desktop\\DATASETS\\labels_en.nt\\labels_en3.nt");
-  //DataConn.create_TDB_Filesystem("C:\\Users\\reinaldo\\Desktop\\DATASETS\\TDB_OWL", "file:C:\\Users\\reinaldo\\Desktop\\DATASETS\\dbpedia_3.8.owl\\dbpedia_3.8.owl");
+  //DataConn.create_TDB_Filesystem(config.getString("dataSet.location"), config.getString("dataSet.inputFile"));
 
   //Use it to load a database from filesystem
-  //DataConn.get_TDB_Filesystem("C:\\Users\\reinaldo\\Desktop\\DATASETS\\TDB_NT");
-  DataConn.get_TDB_Filesystem("C:\\Users\\reinaldo\\Desktop\\DATASETS\\TDB_OWL");
+  DataConn.get_TDB_Filesystem(config.getString("dataSet.location"));
 
-  val format = "TSV"
-  //val format = "JSON"
-
-  //Extracting the label of the object
-  labelExtraction("object", format, "files/inputs/3.8_sl_en_sl_labels_en.nt", "files/VALUE_OF_OBJECT_3.8_sl_en_sl_labels_en.tsv")
-  labelExtraction("object", format, "files/inputs/3.8_sl_en_sl_mappingbased_properties_en.nt", "files/VALUE_OF_OBJECT_3.8_sl_en_sl_mappingbased_properties_en.tsv")
-  labelExtraction("object", format, "files/inputs/3.8_sl_en_sl_instance_types_en.nt","files/VALUE_OF_OBJECT_3.8_sl_en_sl_instance_types_en.tsv")
-
-  //Extracting the label of the property
-  labelExtraction("property", format, "files/inputs/3.8_sl_en_sl_mappingbased_properties_en.nt", "files/VALUE_OF_PROPERTY_3.8_sl_en_sl_mappingbased_properties_en.tsv")
-
+  //Extracting the label
+  labelExtraction(config.getString("execution.extraction"), config.getString("execution.outputFormat"), config.getString("execution.inputFile"), config.getString("execution.outputFile"))
   /*
   Reads in files into a Jena Model, performs context extraction, formatting and outputs context into a file.
   Context extraction can focus on property labels, object labels or object type labels.
