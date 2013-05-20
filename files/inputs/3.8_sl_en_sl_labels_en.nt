@@ -69,3 +69,5 @@
 <http://dbpedia.org/resource/AfricA> <http://www.w3.org/2000/01/rdf-schema#label> "AfricA"@en .
 <http://dbpedia.org/resource/AppliedStatistics> <http://www.w3.org/2000/01/rdf-schema#label> "AppliedStatistics"@en .
 <http://dbpedia.org/resource/A> <http://www.w3.org/2000/01/rdf-schema#label> "A"@en .
+<http://dbpedia.org/resource/List_of_writers_influenced_by_Aristotle> <http://www.w3.org/2000/01/rdf-schema#label> "List of writers influenced by Aristotle"@en .
+<http://dbpedia.org/ontology/MusicalWork> <http://www.w3.org/2000/01/rdf-schema#label> "Musical Work"@en .
